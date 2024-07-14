@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Self photo.jpeg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Certificates</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>I am Fresher</p>
+                <h1>Hi, I'm <span>Aishwarya Sonawane</span><br>From Sanjivani College of Engineering Kopargaon</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about" class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/photo.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hello Everyone, I'm Aishwarya Sonawane From Kopargaon.
+                    I am currently pursuing a B.Tech degree in Electronics and Computer Engineering.
+                    I know programming languages such as Python, PostgreSQL, Machine Learning, and Web Scraping.
+                    During my academics, I completed various project such as weather prediction project using time series analysis.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('internship')">internship</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web app interfaces</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                        <li><span>Python Developer</span><br>Creating own apps and games</li>
+                    </ul>  
+                </div>
+                <div class="tab-contents" id="internship">
+                
+                    <ul>
+                        <li><span>FEB 2024 - MARCH 2024</span><br>AI with Python Training at Friends Union Energistic Lives Institute Pune
+                            <p>Intern, at FUEL.In that Training i did Linkedin Courses,also did Training which is Based On AI with Python.
+
+                                In that Internship I have learn AI with Python.
+                                Worked on Data Analysis,Data Cleaning,Data Collection,Data Tracking,Making Case Stories
+                                Delivered training and mentorship sessions on analytical tools like SQL, MS Excel and Python</p>
+                        </li>
+
+                        <li><span>MAY 2024- JUNE 2024</span><br>TechOctanet Service Pvt.Ltd
+
+                        </li>
+
+                        <li><span>OCT 2022-DEC 2022</span><br>Saleforce Developer Virtual Internship
+                            <p>Virtual Internship
+                                Completed various modules on the Salesforce Trailhead platform,gaining hands-on experience with Functionalities.
+                                Achieved 65 % growth In Salesforce using Apex,Testing and Super Badge-Apex Specialist Skills.
+                                </p>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>B.Tech in Electronics and Computer Engineering</li>
+                        <p>Sanjivani College Of Engineering,Kopargaon
+                            CGPA: 7.99</p>
+                    </ul>
+
+                    <ul>
+                        <li><span>2019-2020</span><br>Higher Secondary School</li>
+                            <P>K.B.Rohmare Junior College,Kopargaon
+                                
+                            </P>
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Projects -->
+    <div id="projects" class="container">
+        <h1>My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fas fa-cloud"></i>
+                <h2>Weather Prediction Using Time Series Analysis</h2>
+                <p>My project focuses on weather prediction using time series analysis. By leveraging historical weather data and advanced statistical methods, I aim to develop predictive models that forecast future weather conditions accurately. This project explores the intersection of data science and meteorology to enhance our ability to anticipate and prepare for weather events.</p>
+                <a href="https://github.com/Aishwarya25112002/Weather-Prediction-Using-Time-Series-Analysis.git">Github Repository</a>
+                <!---<a href="#">Learn More</a>--->
+            </div>
+            <div>
+                <i class="fab fa-cloud"></i>
+                <h3>Amazon Clone</h3>
+                <p>Creating an Amazon clone using HTML, CSS, and JavaScript involves building a multi-page 
+                    e-commerce site that mimics the functionality and design of Amazon. The project includes 
+                    a homepage with featured products, a product listing page with filters, a product detail 
+                    page, a shopping cart, and user authentication for login and registration. Key features 
+                    include search functionality, responsive design for mobile and desktop, interactive product 
+                    reviews, and a simulated checkout process.</p>
+                <a href="https://aishwarya25112002.github.io/Shopping-Clone/">GitHub Repository</a>
+                <!-----<a href="#">Learn More</a>-->
+            </div>
+
+            <div>
+                
+                <h4>Temperature Converter Website</h4>
+                <a href="https://aishwarya25112002.github.io/Temperature-convert/">GitHub Repository</a>
+            </div>
+
+            <div>
+                <h5> Calculater </h5>
+                <P>In that application you performing various operation such as Add,Substract,Multiply,Divide ..</P>
+                <a href="https://aishwarya25112002.github.io/Calculator-app/">GitHub Repository</a>
+            </div>
+        </div>
+
+    </div>
+    <!------------Portfolio -->
+    <div id="portfolio">
+        <div class="container"></div>
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Weather prediction using time series analysis</h3>
+                    <p>The project involves utilizing time series analysis techniques to predict future weather 
+                    conditions based on historical weather data. By applying statistical methods 
+                    and machine learning algorithms, the goal is to model and forecast temperature, humidity, 
+                    precipitation, and other meteorological variables accurately.</p>
+                    <!---<a href="#"></a>--->
+                </div>
+            </div>
+            <div class="work">
+            
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Spelling Checker Application</h3>
+                    <!---<p></p>--->
+                    <!---<a href="#"></a>--->
+            </div>
+            <!---<div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping app</h3>
+                    <!---<p></p>--->
+                    <!---<a href="#"></a>--->
+                    --->
+            </div>
+        </div>
+    </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+
+<!----Certificates-->
+
+<div id="Certificates">
+    <div class="container"></div>
+    <h1 class="sub-title">Certificates</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-4.png">
+            <div class="layer">
+                <!---<a href="#"></a>--->
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-5.jpeg">
+            <div class="layer"></div>
+        </div>
+
+        <div class="work">
+            <img src="images/codsoft.jpeg">
+            <div class="layer"></div>>
+
+        </div>
+        <a href="https://drive.google.com/drive/folders/1fUAwO4q8lRrTtmz9BtE13aAmrcvLAlfZ?usp=sharing" class="btn btn2">Download Certificates</a>
+    </div>
+</div>
+
+
+<!--------Contact---->
+
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-share"></i>aishsonawane2002@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9699562026</p>
+            <!---<div class="social-icons">
+                <a href="#"i class="fa-brands fa-facebook"></i>"></a>
+                <a href="#"i class="fa-brands fa-twitter"></i>"></a>
+                <a href="#"i class="fa-brands fa-instagram"></i>"></a>
+                <a href="#"i class="fa-brands fa-linkedin"></i>"></a>
+                
+                
+            </div>---->
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1wFw1rWguQxpcn1RDr0JdMqzsuXoIfdTw/view?usp=drivesdk" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email"name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Aishwarya Sonawane<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+    <script>
+        var tablinks = document.querySelectorAll(".tab-links");
+        var tabcontents = document.querySelectorAll(".tab-contents");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
